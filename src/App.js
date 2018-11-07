@@ -49,7 +49,7 @@ class App extends Component {
     if(this.state.showPersons) {
       return (
           this.state.persons.map((person, index) => {
-            return <Person name={person.name} age={person.age} delete={this.deletePersonHandler.bind(this, person.id)} change={(event) => this.changedPersonHandler(event, person.id)} />
+            return <Person key={index} name={person.name} age={person.age} delete={this.deletePersonHandler.bind(this, person.id)} change={(event) => this.changedPersonHandler(event, person.id)} />
       }))
     }
     else
