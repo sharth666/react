@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display:flex;
+  justify-content:center;
+}
+
+.person {
+  text-align:left;
+  border: 4px solid #fff;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ddd;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.person .input {
+  padding:5px;
+}
+
+button {
+  display: inline-block;
+  font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  padding: 0.5em 1.4em;
+  padding-right: 2.7em;
+  background: rgb(142, 190, 248);
+  border: none;
+  color: white;
+  transition: 0.2s;
+  margin:10px;
+}
+
+button:hover {
+  background: rgb(32, 66, 255);
+}
+
+button.delete {
+  background: rgb(221, 103, 67)!important;
+}
